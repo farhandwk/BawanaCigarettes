@@ -287,8 +287,8 @@ document.addEventListener("DOMContentLoaded", () => {
             })
             // style container LP
             // containerLPLanding.style.position = "absolute"
-        containerLPLanding.style.left = "11vw"
-        containerLPLanding.style.width = "89vw"
+        containerLPLanding.style.left = "4vw"
+        containerLPLanding.style.width = "82vw"
         containerLPLanding.style.zIndex = "2"
             // style lamsi
         containerLamsi.style.backgroundImage = "url('SRC/768x1365.png')";
