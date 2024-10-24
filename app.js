@@ -250,10 +250,9 @@ document.addEventListener("DOMContentLoaded", () => {
         btnLanding.style.fontSize = "4.5vw"
         btnLanding.style.borderRadius = "4.5vw"
             //style container LP landing
-        containerLPLanding.style.marginLeft = "11%"
             //style btn LP landing
         btnLPLanding.forEach(btnLPLanding => {
-                btnLPLanding.style.width = "26%"
+                btnLPLanding.style.width = "26.5vw"
                 btnLPLanding.style.height = "6vh"
                 btnLPLanding.style.fontSize = "3.8vw"
                 btnLPLanding.style.borderRadius = "4.5vw"
@@ -286,6 +285,11 @@ document.addEventListener("DOMContentLoaded", () => {
         pTembakau.forEach(pTembakau => {
                 pTembakau.style.fontSize = "3.5vw"
             })
+            // style container LP
+            // containerLPLanding.style.position = "absolute"
+        containerLPLanding.style.left = "11vw"
+        containerLPLanding.style.width = "89vw"
+        containerLPLanding.style.zIndex = "2"
             // style lamsi
         containerLamsi.style.backgroundImage = "url('SRC/768x1365.png')";
         contentLamsi.style.width = "100% ";

@@ -171,13 +171,13 @@ body {
 }
 
 .containerLamsiPaksi-landing {
-    width: 100%;
+    width: 89%;
     height: 0vh;
     position: absolute;
-    margin-left: 7%;
     margin-top: 0.7%;
     transition: 0.5s;
     overflow: hidden;
+    margin-left: 7vw;
 }
 
 .showcontainerLamsiPaksi-landing {
@@ -186,7 +186,7 @@ body {
 }
 
 .btnLP-landing {
-    width: 12%;
+    width: 14%;
     height: 7vh;
     font-size: 1.5vw;
     font-family: "poppins";
@@ -223,20 +223,20 @@ body {
     align-items: center;
     overflow: hidden;
     transition: 0.5s;
-    z-index: 99;
+    z-index: 1;
 }
 
 .showsidebar-landing {
-    width: 55%;
+    width: 55vw;
     transition: 0.5s;
 }
 
 .closesidebar-landing {
     position: absolute;
-    width: 10vw;
-    height: 6vh;
+    width: 7.5vw;
+    height: 4vh;
     top: -4vw;
-    left: 42.5vw;
+    left: 45.5vw;
 }
 
 .containerSidebar-landing {
@@ -252,19 +252,19 @@ body {
 }
 
 .judulSidebar-landing {
-    font-size: 5.5vh;
+    font-size: 4.5vh;
     color: #8D493A;
 }
 
 .lineSidebar-landing {
-    width: 90%;
-    height: 0.5vh;
+    width: 80%;
+    height: 0.4vh;
     background-color: #8D493A;
     margin-top: 3vh;
 }
 
 .isiSidebar-landing {
-    font-size: 3vh;
+    font-size: 2.5vh;
     margin-left: -10%;
     margin-top: 3vh;
     margin-bottom: 3vh;
@@ -274,7 +274,7 @@ body {
 .subisiSidebar-landing {
     font-size: 2vh;
     color: #8D493A;
-    margin-left: -20%;
+    margin-left: -8%;
     height: 0vh;
     transition: 0.3s;
     overflow: hidden;
@@ -289,9 +289,9 @@ body {
     width: 36vw;
     height: 11vh;
     border: 3vw solid #8D493A;
-    border-radius: 4vw;
+    border-radius: 6vw;
     position: relative;
-    top: -1vh;
+    top: -0.5vh;
 }
 
 .decorSidebar-landing {
